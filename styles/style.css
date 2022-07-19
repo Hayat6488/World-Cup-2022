@@ -258,3 +258,23 @@ footer a {
 #special {
     font-size: 18px;
 }
+
+.blog_1{
+    background-color: skyblue;
+}
+
+.blog_1 ul{
+    margin-left: 50px;
+}
+
+.blog_1:hover{
+    background-color:#1ed25a;
+}
+
+.blog_1:hover{
+    color: white;
+}
+
+.blog_1 h1{
+    margin: 35px;
+}
