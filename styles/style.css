@@ -172,10 +172,6 @@ main {
     color: #16161670;
 }
 
-
-
-
-
 footer {
     width: 100%;
     height: 444px;
@@ -217,4 +213,46 @@ footer a {
 
 .awesome a {
     margin-left: 45px;
+}
+
+/* For all matches */
+
+.blog-matches{
+    width: 312px;
+    height: 242px;
+    border: 1px solid #b9afaf43;
+    border-radius: 10px;
+}
+
+.match-box{
+    margin: 28px 30px 53px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flags h5{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.match-box h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.match-box p{
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+#special{
+    font-size: 18px;
 }
