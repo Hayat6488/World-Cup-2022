@@ -22,24 +22,48 @@ body {
 ---------------- */
 
 header {
-    width: 1321px;
+    width: 1421px;
     height: 646px;
+    margin-right: 0px;
     border: 1px solid lightskyblue;
     background-color: lightskyblue;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 0px;
 }
 
 .banner-spec {
-    width: 50%;
-    padding: 0px;
+    margin: 111px 0px 111px 106px;
+    width: 65%;
+    color: white;
+    font-size: 16px;
+}
+
+.banner-spec h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .banner-img {
     width: 581px;
     height: 613px;
     margin-top: 40px;
+}
+
+.watch-live{
+    margin-top: 20px;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #1ed25a;
+    border: 1px solid rgb(105, 200, 27);
+    color: white;
+    font-size: 20px;
+}
+
+.watch-live:hover{
+    background-color: #215f35;
+    border: 1px solid #215f35;
 }
