@@ -9,6 +9,37 @@
 --commont styles---
 ---------------- */
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
+}
+
+.top {
+    margin: 50px 139px 130px 140px;
+}
+
+/* ----------------
+-------Header------
+---------------- */
+
+header {
+    width: 1321px;
+    height: 646px;
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.banner-spec {
+    width: 50%;
+    padding: 0px;
+}
+
+.banner-img {
+    width: 581px;
+    height: 613px;
+    margin-top: 40px;
 }
