@@ -159,18 +159,18 @@ main {
     margin-bottom: 0px;
 }
 
-.blog-time{
+.blog-time {
     display: flex;
     align-items: center;
     margin-right: 20px;
 }
 
-.blog-time p{
+.blog-time p {
     margin-left: 8px;
     color: #16161670;
 }
 
-.blog-time i{
+.blog-time i {
     color: #16161670;
 }
 
@@ -219,14 +219,14 @@ footer a {
 
 /* For all matches */
 
-.blog-matches{
+.blog-matches {
     width: 312px;
     height: 242px;
     border: 1px solid #b9afaf43;
     border-radius: 10px;
 }
 
-.match-box{
+.match-box {
     margin: 28px 30px 53px 30px;
     display: flex;
     flex-direction: column;
@@ -234,27 +234,27 @@ footer a {
     align-items: center;
 }
 
-.flags{
+.flags {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.flags h5{
+.flags h5 {
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.match-box h4{
+.match-box h4 {
     font-size: 20px;
     font-weight: 400;
 }
 
-.match-box p{
+.match-box p {
     font-size: 16px;
     color: #4D4D4D;
 }
 
-#special{
+#special {
     font-size: 18px;
 }
