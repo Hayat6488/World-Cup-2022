@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 /* ----------------
@@ -20,9 +21,7 @@ body {
 .top {
     margin: 50px 139px 0px 140px;
 }
-main{
-    margin-top: 130px;
-}
+
 
 header {
     width: 1421px;
@@ -43,7 +42,7 @@ header {
     font-size: 16px;
 }
 
-.banner-spec h1{
+.banner-spec h1 {
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -55,7 +54,7 @@ header {
     margin-top: 40px;
 }
 
-.watch-live{
+.watch-live {
     margin-top: 20px;
     width: 187px;
     height: 56px;
@@ -66,7 +65,7 @@ header {
     font-size: 20px;
 }
 
-.watch-live:hover{
+.watch-live:hover {
     background-color: #215f35;
     border: 1px solid #215f35;
 }
@@ -75,8 +74,12 @@ header {
 /* ------------------
 ----main section-----
 ------------------ */
+main {
+    margin-top: 130px;
+    display: flex;
+}
 
-.nav{
+.nav {
     width: 312px;
     height: 312px;
     background-color: lightskyblue;
@@ -86,9 +89,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 24px;
 }
 
-.nav-box{
+.nav-box {
     width: 252px;
     height: 64px;
     background-color: white;
@@ -100,19 +104,97 @@ header {
     align-items: center;
 }
 
-#nav-box-3{
+#nav-box-3 {
     margin-bottom: 30px;
 }
 
-.nav-box a{
+.nav-box a {
     text-decoration: none;
     color: #161616;
 }
 
-.current-page{
+.current-page {
     background-color: #1ed25a;
 }
 
-.current-page a{
+.current-page a {
     color: white;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.blog {
+    width: 312px;
+    height: 362px;
+    border: 1px solid #b9afaf43;
+    border-radius: 10px;
+}
+
+.transfer {
+    width: 100px;
+    height: 32px;
+    border: 1px solid #161616;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.blog-des {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-des h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+footer {
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+    margin-top: 130px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    color: #FFFFFF;
+}
+
+hr {
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: #161616;
+    margin-bottom: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 45px;
+}
+
+.awesome {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.awesome a {
+    margin-left: 99px;
 }
