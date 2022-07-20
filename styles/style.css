@@ -178,7 +178,7 @@ main {
 /* footer */
 
 footer {
-    width: 100%;
+    width: 1600px;
     height: 444px;
     background-color: #161616;
     margin-top: 130px;
@@ -401,6 +401,11 @@ footer a {
 
  .blogs{
     grid-template-columns: repeat(1, 1fr);
+ }
+
+ footer{
+    width: 375px;
+    height: 412px;
  }
     
 }
