@@ -266,23 +266,23 @@ footer a {
 /* for groups  */
 
 
-.blog_1{
+.blog_1 {
     background-color: skyblue;
 }
 
-.blog_1 ul{
+.blog_1 ul {
     margin-left: 50px;
 }
 
-.blog_1:hover{
-    background-color:#1ed25a;
+.blog_1:hover {
+    background-color: #1ed25a;
 }
 
-.blog_1:hover{
+.blog_1:hover {
     color: white;
 }
 
-.blog_1 h1{
+.blog_1 h1 {
     margin: 35px;
 }
 
@@ -306,12 +306,12 @@ footer a {
 @media screen and (max-width: 576px) {
 
 
-    .top{
-        margin: 44px 20px 0px 38px;
+    .top {
+        margin: 44px 20px 0px 32px;
     }
 
 
-    header{
+    header {
         width: 334px;
         height: 472px;
         padding: 0px;
@@ -319,7 +319,7 @@ footer a {
 
     }
 
-    .banner-spec{
+    .banner-spec {
         width: 258px;
         height: 178px;
         margin: 0px;
@@ -329,32 +329,32 @@ footer a {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        
+
     }
 
-    .banner-spec h1{
+    .banner-spec h1 {
         font-size: 22px;
         font-weight: 700;
         text-align: center;
     }
 
-    .banner-spec p{
+    .banner-spec p {
         width: 258px;
         height: 300px;
         text-align: center;
-        overflow:hidden;
+        overflow: hidden;
         text-overflow: ellipsis;
         margin-bottom: 0px;
     }
 
-    .banner-img{
+    .banner-img {
         width: 233px;
         height: 225px;
         position: relative;
         top: 22px;
     }
 
-    .watch-live{
+    .watch-live {
         width: 161px;
         height: 40px;
         border-radius: 5px;
@@ -366,7 +366,7 @@ footer a {
 
     /* main section */
 
-    main{
+    main {
         width: 334px;
         margin-top: 24px;
         flex-direction: column;
@@ -374,7 +374,7 @@ footer a {
         justify-content: center;
     }
 
-    .nav{
+    .nav {
         width: 210px;
         height: 176px;
         background-color: white;
@@ -384,47 +384,48 @@ footer a {
         margin-bottom: 24px;
     }
 
-.nav-box{
-    height: 48px;
-    width: 160px;
-    margin: 0px 0px 16px 0px;
-    
-}
-    
- #nav-box-1{
-    width: 210px;
- }   
-    
- #nav-box-3{
-     margin-bottom: 0px;
- } 
+    .nav-box {
+        height: 48px;
+        width: 160px;
+        margin: 0px 0px 16px 0px;
 
- .blogs{
-    grid-template-columns: repeat(1, 1fr);
- }
+    }
 
- footer{
-    width: 100%;
-    height: 412px;
-    flex-direction: column;
- }
+    #nav-box-1 {
+        width: 210px;
+    }
 
- footer a{
-    position: relative;
-    right: -25px;
-    margin-bottom: 12px;
- }
+    #nav-box-3 {
+        margin-bottom: 0px;
+    }
 
-.contacts{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-    hr{
+    footer {
+        width: 100%;
+        height: 412px;
+        flex-direction: column;
+    }
+
+    footer a {
+        position: relative;
+        right: -25px;
+        margin-bottom: 12px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    hr {
         width: 250px;
         margin-bottom: 25px;
     }
+
     .awesome a {
         margin-left: 0px;
     }
@@ -435,8 +436,3 @@ footer a {
 
 
 /* for tablet */
-
-@media screen and (min-width:577px) and (max-width: 992px) {
-   
-    
-}
