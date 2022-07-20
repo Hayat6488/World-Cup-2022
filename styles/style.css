@@ -304,17 +304,14 @@ footer a {
 /* for mobile */
 
 @media screen and (max-width: 576px) {
-    body{
-        background-color: red;
-    }
+
+    
 }
 
 
 /* for tablet */
 
 @media screen and (min-width:577px) and (max-width: 992px) {
-    body{
-        background-color: green;
-    }
+   
     
 }
