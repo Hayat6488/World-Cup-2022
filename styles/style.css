@@ -436,3 +436,42 @@ footer a {
 
 
 /* for tablet */
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .top{
+        margin: 50px 50px 0px 50px;
+    }
+
+    header{
+        width: 734px;
+        height: 398px;
+        border-radius: 30px;
+    }
+
+    .banner-spec{
+        width: 316px;
+        width: 276px;
+    }
+
+    .banner-spec h1{
+        font-size: 30px;
+        font-weight: 700px;
+    }
+
+    .banner-spec p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .watch-live{
+        position: relative;
+        top: -10px;
+    }
+
+    .banner-img{
+        width: 300px;
+        height: 367px;
+        position: relative;
+        right: 50px;
+    }
+}
