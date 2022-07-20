@@ -305,6 +305,65 @@ footer a {
 
 @media screen and (max-width: 576px) {
 
+
+    .top{
+        margin: 44px 20px 0px 21px;
+    }
+
+
+    header{
+        width: 334px;
+        height: 472px;
+        padding: 0px;
+        flex-direction: column;
+
+    }
+
+    .banner-spec{
+        width: 258px;
+        height: 178px;
+        margin: 0px;
+        position: relative;
+        top: -50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .banner-spec h1{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .banner-spec p{
+        width: 258px;
+        height: 300px;
+        text-align: center;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 0px;
+    }
+
+    .banner-img{
+        width: 233px;
+        height: 225px;
+        position: relative;
+        top: 22px;
+    }
+
+    .watch-live{
+        width: 161px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 0px;
+        position: relative;
+        top: 45px;
+
+    }
+
     
 }
 
