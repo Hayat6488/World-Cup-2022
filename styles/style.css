@@ -324,7 +324,7 @@ footer a {
         height: 178px;
         margin: 0px;
         position: relative;
-        top: 0px;
+        top: -50px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -360,7 +360,7 @@ footer a {
         border-radius: 5px;
         margin-top: 0px;
         position: relative;
-        top: 45px;
+        top: 0px;
 
     }
 
