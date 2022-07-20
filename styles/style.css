@@ -299,6 +299,11 @@ footer a {
 }
 
 
+.view-all-2{
+    visibility: hidden;
+}
+
+
 
 
 /* for mobile */
@@ -429,6 +434,8 @@ footer a {
     .awesome a {
         margin-left: 0px;
     }
+
+
 }
 
 
@@ -438,40 +445,114 @@ footer a {
 /* for tablet */
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
-    .top{
+
+
+    /* header */
+
+
+    .top {
         margin: 50px 50px 0px 50px;
     }
 
-    header{
+    header {
         width: 734px;
         height: 398px;
         border-radius: 30px;
+        margin-bottom: 70px;
     }
 
-    .banner-spec{
+    .banner-spec {
         width: 316px;
         width: 276px;
     }
 
-    .banner-spec h1{
+    .banner-spec h1 {
         font-size: 30px;
         font-weight: 700px;
     }
 
-    .banner-spec p{
+    .banner-spec p {
         font-size: 14px;
         font-weight: 400;
     }
 
-    .watch-live{
+    .watch-live {
         position: relative;
         top: -10px;
     }
 
-    .banner-img{
+    .banner-img {
         width: 300px;
         height: 367px;
         position: relative;
         right: 50px;
     }
+
+
+    /* main */
+
+    main {
+        width: 734px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    /* navigation */
+
+    .nav {
+        width: 734px;
+        height: 150px;
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .nav-box {
+        margin-left: 47px;
+        width: 230px;
+        height: 64px;
+        margin-top: 0px;
+    }
+
+    /* blogs */
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .display{
+        display: none;
+    }
+    /* Footer */
+
+    footer {
+        width: 100%;
+        height: 345px;
+        flex-direction: column;
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+
+    .view-all-2{
+        display: flex;
+        justify-content: center;
+        visibility: visible;
+    }
+
+
+
 }
