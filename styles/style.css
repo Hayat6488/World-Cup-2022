@@ -70,6 +70,18 @@ header {
     border: 1px solid #215f35;
 }
 
+.animation {
+    opacity: 0;
+    animation: ani 1.5s ease-out .5s infinite alternate;
+}
+
+@keyframes ani {
+    100% {
+        opacity: 1;
+        transform: scale(1.5);
+    }
+}
+
 
 /* ------------------
 ----main section-----
@@ -299,7 +311,7 @@ footer a {
 }
 
 
-.view-all-2{
+.view-all-2 {
     visibility: hidden;
 }
 
@@ -512,7 +524,7 @@ footer a {
         justify-content: center;
         align-items: center;
     }
-    
+
 
     .nav-box {
         margin-left: 47px;
@@ -527,9 +539,10 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .display{
+    .display {
         display: none;
     }
+
     /* Footer */
 
     footer {
@@ -538,16 +551,16 @@ footer a {
         flex-direction: column;
     }
 
-    .contacts{
+    .contacts {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        
+
     }
 
 
-    .view-all-2{
+    .view-all-2 {
         display: flex;
         justify-content: center;
         visibility: visible;
