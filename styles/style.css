@@ -324,7 +324,7 @@ footer a {
         height: 178px;
         margin: 0px;
         position: relative;
-        top: -50px;
+        top: 0px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
