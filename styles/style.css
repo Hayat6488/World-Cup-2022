@@ -90,6 +90,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-right: 24px;
+    padding-bottom: 30px;
 }
 
 .nav-box {
@@ -106,10 +107,6 @@ main {
     margin-right: 30px;
 }
 
-#nav-box-3 {
-    margin-bottom: 30px;
-}
-
 .nav-box a {
     text-decoration: none;
     color: #161616;
@@ -122,6 +119,9 @@ main {
 .current-page a {
     color: white;
 }
+
+/* Blogs */
+
 
 .blogs {
     display: grid;
@@ -364,8 +364,44 @@ footer a {
 
     }
 
+    /* main section */
+
+    main{
+        margin-top: 24px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav{
+        width: 210px;
+        height: 176px;
+        background-color: white;
+        margin-right: 0px;
+        border: 0px solid white;
+        padding-bottom: 0px;
+        margin-bottom: 24px;
+    }
+
+.nav-box{
+    height: 48px;
+    width: 160px;
+    margin: 0px 0px 16px 0px;
     
 }
+    
+ #nav-box-1{
+    width: 210px;
+ }   
+    
+ #nav-box-3{
+     margin-bottom: 0px;
+ } 
+    
+}
+
+
+
 
 
 /* for tablet */
